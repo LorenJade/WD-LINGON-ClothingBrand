@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>UNIQLO</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+    <body>
+<!-- REQUIREMENT:
+ - 4 pages: landing page, about page, contact and menu of services/products page
+ - min of 3 products and each has their own modal or page
+ - tailwind / bootstrap not required but recommended
+ - atleast tablet useful -->
+
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <!-- Language Icon Button -->
+                <div class="left-side-icons">
+                    <a href="#" class="nav-link" data-bs-toggle="offcanvas" data-bs-target="#languageOffCanvas" aria-controls="languageOffCanvas">
+                    <i class="fas fa-globe"></i>
+                    </a>
+                </div>
+
+                <!-- Offcanvas -->
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="languageOffCanvas" aria-labelledby="languageOffCanvasLabel">
+                    <div class="offcanvas-header">
+                    <h5 id="languageOffCanvasLabel">Select Language</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                <div class="offcanvas-body">
+
+                <!-- Language Options -->
+                    <ul class="list-unstyled">
+                        <li><button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#englishModal">English</button></li>
+                        <li><button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#spanishModal">Español</button></li>
+                        <li><button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#frenchModal">Français</button></li>
+                        <li><button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#filipinoModal">Filipino</button></li>
+                        <li><button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#chineseModal">中文</button></li>
+                    </ul>
+                </div>
+                </div>
+
+                <!-- Modals for Each Language -->
+
+                <!-- English Modal -->
+                <div class="modal fade" id="englishModal" tabindex="-1" aria-labelledby="englishModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="englishModalLabel">English</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                You have selected English.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Spanish Modal -->
+                <div class="modal fade" id="spanishModal" tabindex="-1" aria-labelledby="spanishModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="spanishModalLabel">Español</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                You have selected Spanish.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- French Modal -->
+                <div class="modal fade" id="frenchModal" tabindex="-1" aria-labelledby="frenchModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="frenchModalLabel">Français</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                You have selected French.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Filipino Modal -->
+                <div class="modal fade" id="filipinoModal" tabindex="-1" aria-labelledby="filipinoModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="filipinoModalLabel">Filipino</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                You have selected Filipino.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Chinese Modal -->
+                <div class="modal fade" id="chineseModal" tabindex="-1" aria-labelledby="chineseModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="chineseModalLabel">中文</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                You have selected Chinese.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Logo and Navigation Items -->
+                <div class="d-flex flex-column align-items-center mx-auto">
+
+                    <!-- Logo -->
+                    <a class="navbar-brand" href="#home">
+                        <img src="./assets/img/Uniqlo Logo.png" width="auto" height="80">
+                    </a>
+                    
+                    <!-- Navigation Items-->
+                    <ul class="navbar-nav d-flex flex-row mt-3">
+                        <li class="nav-item me-4">
+                            <a class="nav-link" href="#home">HOME</a>
+                        </li>
+                        <li class="nav-item me-4">
+                            <a class="nav-link" href="#shop">SHOP</a>
+                        </li>
+                        <li class="nav-item me-4">
+                            <a class="nav-link" href="#about">ABOUT</a>
+                        </li>
+                        <li class="nav-item me-4">
+                            <a class="nav-link" href="#contact">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Right-side Icons: User, Wishlist, Cart -->
+                <div class="right-side-icons d-flex justify-content-center">
+                    <a href="#" class="nav-link px-2">
+                        <i class="fas fa-user"></i>
+                    </a>
+                    <a href="#" class="nav-link px-2">
+                        <i class="fas fa-heart"></i>
+                    </a>
+                    <a href="#" class="nav-link px-2">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Shop -->
+        <section class="products">
+            <h1>Products</h1>
+
+            <!-- Products Carousel -->
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://im.uniqlo.com/global-cms/spa/resd9ab23e01daf9f07b5ce636d58b5a2d8fr.jpg" class="d-block w-100" alt="carousel-arcane">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://im.uniqlo.com/global-cms/spa/resf783f63836bf9404347ebdc5abe2de80fr.jpg" class="d-block w-100" alt="carousel-mofusand">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://im.uniqlo.com/global-cms/spa/resf616042cb6f3359b7c696a8b631f9da7fr.jpg" class="d-block w-100" alt="carousel-mickey">
+                  </div>
+                </div>
+              
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+              <!-- Products Carousel -->
+            
+
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    
+                    <!-- About Uniqlo Column -->
+                    <div class="footer-col">
+                        <h4>ABOUT UNIQLO</h4>
+                        <ul>
+                            <li><a href="#">Information</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Sustainability</a></li>
+                            <li><a href="#">Online Gift Service</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- About Uniqlo Column -->
+                    <div class="about-col">
+                        <h4>HELP</h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Return Policy</a></li>
+                            <li><a href="#">Bulk Order</a></li>
+                            <li><a href="#">Accessibility</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Account Column -->
+                    <div class="account-col">
+                        <h4>ACCOUNT</h4>
+                        <ul>
+                            <li><a href="#">UNIQLO App</a></li>
+                            <li><a href="#">Membership</a></li>
+                            <li><a href="#">Profile</a></li>
+                            <li><a href="#">Coupons</a></li>
+                        </ul>
+                    </div>
+                    
+                    <!-- UNIQLO Social Account Column -->
+                    <div class="social-col">
+                        <h4>UNIQLO SOCIAL ACCOUNT</h4>
+                            <div class="social-icons">
+                                <a href="https://www.facebook.com/UNIQLO.PH" class="social-icon facebook"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://x.com/UNIQLOPH" class="social-icon twitter"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.instagram.com/uniqlophofficial/" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

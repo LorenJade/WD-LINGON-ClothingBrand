@@ -22,28 +22,121 @@
                 <!-- Language Icon Button -->
                 <div class="left-side-icons">
                     <a href="#" class="nav-link" data-bs-toggle="offcanvas" data-bs-target="#languageOffCanvas" aria-controls="languageOffCanvas">
-                    <i class="fas fa-globe"></i>  <!-- Language Globe Icon -->
+                    <i class="fas fa-globe"></i>
                     </a>
                 </div>
 
                 <!-- Offcanvas -->
                 <div class="offcanvas offcanvas-start" tabindex="-1" id="languageOffCanvas" aria-labelledby="languageOffCanvasLabel">
-                <div class="offcanvas-header">
+                    <div class="offcanvas-header">
                     <h5 id="languageOffCanvasLabel">Select Language</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
+                    </div>
                 <div class="offcanvas-body">
 
                 <!-- Language Options -->
-                <ul class="list-unstyled">
-                    <li><a href="#" class="btn btn-link">English</a></li>
-                    <li><a href="#" class="btn btn-link">Español</a></li>
-                    <li><a href="#" class="btn btn-link">Français</a></li>
-                    <li><a href="#" class="btn btn-link">Deutsch</a></li>
-                    <li><a href="#" class="btn btn-link">中文</a></li>
-                </ul>
+                    <ul class="list-unstyled">
+                        <li><button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#englishModal">English</button></li>
+                        <li><button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#spanishModal">Español</button></li>
+                        <li><button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#frenchModal">Français</button></li>
+                        <li><button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#filipinoModal">Filipino</button></li>
+                        <li><button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#chineseModal">中文</button></li>
+                    </ul>
                 </div>
-            </div>
+                </div>
+
+                <!-- Modals for Each Language -->
+
+                <!-- English Modal -->
+                <div class="modal fade" id="englishModal" tabindex="-1" aria-labelledby="englishModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="englishModalLabel">English</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                You have selected English.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Spanish Modal -->
+                <div class="modal fade" id="spanishModal" tabindex="-1" aria-labelledby="spanishModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="spanishModalLabel">Español</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                You have selected Spanish.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- French Modal -->
+                <div class="modal fade" id="frenchModal" tabindex="-1" aria-labelledby="frenchModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="frenchModalLabel">Français</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                You have selected French.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Filipino Modal -->
+                <div class="modal fade" id="filipinoModal" tabindex="-1" aria-labelledby="filipinoModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="filipinoModalLabel">Filipino</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                You have selected Filipino.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Chinese Modal -->
+                <div class="modal fade" id="chineseModal" tabindex="-1" aria-labelledby="chineseModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="chineseModalLabel">中文</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                You have selected Chinese.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
 
                 <!-- Logo and Navigation Items -->
                 <div class="d-flex flex-column align-items-center mx-auto">
@@ -86,47 +179,66 @@
         </nav>
 
         <!-- Carousel -->
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <!-- Carousel Indicators -->
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
-            </div>
-          
-            <!-- Carousel Inner (Slides) -->
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Carousel Items -->
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="https://im.uniqlo.com/global-cms/spa/res4503595c252d5c59a644359327730cf9fr.jpg" class="d-block w-100" alt="...">
+                <img src="https://im.uniqlo.com/global-cms/spa/res40f7360cb7e9f12db82a34246b5cfe1efr.jpg" class="d-block w-100" alt="carousel-main">
               </div>
-          
-              <div class="carousel-inner">
-                <div class="carousel-item">
-                  <img src="https://im.uniqlo.com/global-cms/spa/res2708599334f81fb37582c486c9ffb7b5fr.jpg" class="d-block w-100" alt="...">
+
+              <div class="carousel-item">
+                <img src="https://im.uniqlo.com/global-cms/spa/res4503595c252d5c59a644359327730cf9fr.jpg
+                " class="d-block w-100" alt="carousel-women">
+                <div class="text-overlay">
+                    <h5>HEATTECH Collection</h5>
+                    <p>HEATTECH Ultra Warm Crew Neck T-Shirt:<br>
+                    Our warmest HEATTECH built for -5 to 0 degree weather</p>
+                    <p class="price">P990 <span class="old-price">P1490</span></p>
+                    <p class="offer">All Store Limited Offer from November 22 to 28, 2024</p>
                 </div>
+              </div>
 
               <div class="carousel-item">
-                <img src="https://im.uniqlo.com/global-cms/spa/res1026bca35c242da511b3abe17bd8feaafr.jpg" class="d-block w-100" alt="...">
+                <img src="https://im.uniqlo.com/global-cms/spa/res2708599334f81fb37582c486c9ffb7b5fr.jpg" class="d-block w-100" alt="carousel-men">
+                <div class="text-overlay">
+                    <h5>Ultra Light Down Jacket</h5>
+                    <p>Lightweight and durable for the winter season</p>
+                    <p class="price">P2990 <span class="old-price">P3490</span></p>
+                    <p class="offer">All Store Limited Offer from November 22 to 28, 2024</p>
+                </div>
               </div>
-          
-              <div class="carousel-item">
-                <img src="https://im.uniqlo.com/global-cms/spa/resb9277fc05582b821b7c6e8a79df431e3fr.jpg" class="d-block w-100" alt="...">
 
-            <div class="carousel-item">
-                    <img src="https://im.uniqlo.com/global-cms/spa/res40f7360cb7e9f12db82a34246b5cfe1efr.jpg" class="d-block w-100" alt="...">
-            </div>
+              <div class="carousel-item">
+                <img src="https://im.uniqlo.com/global-cms/spa/res36c4ee45c9eec7fa8474cffc1b831818fr.jpg" class="d-block w-100" alt="carousel-kids">
+                <div class="text-overlay">
+                    <h5>AIRism Cotton T-Shirt</h5>
+                    <p>A quick dry piece that's designed for them
+                        to wear as their everyday tee</p>
+                    <p class="price">P390 <span class="old-price">P590</span></p>
+                    <p class="offer">All Store Limited Offer from November 22 to 28, 2024</p>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="https://im.uniqlo.com/global-cms/spa/resb9277fc05582b821b7c6e8a79df431e3fr.jpg
+                " class="d-block w-100" alt="carousel-babies">
+                <div class="text-overlay">
+                    <h5>Leggings Collection</h5>
+                    <p>Cropped Leggings.
+                    Easy to put on, wear, and move in</p>
+                    <p class="price">P290 <span class="old-price">P390</span></p>
+                    <p class="offer">All Store Limited Offer from November 22 to 28, 2024</p>
+                </div>
               </div>
             </div>
-          
-            <!-- Carousel Controls -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+
+            <!-- Carousel Button -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
-          
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
@@ -199,7 +311,7 @@
             <h2>UT Collection</h2>
             <div class="banner-container">
                 <div class="image-overlay">
-                    <img src="https://image.uniqlo.com/UQ/ST3/ph/imagesother/Feature-Pages/UTMain/2024/ut.png" alt="UT Collection Banner">
+                    <img src="https://image.uniqlo.com/UQ/ST3/ph/imagesother/Feature-Pages/UTMain/2024/ut.png" alt="ut-collection-banner">
                 </div>
                 <a href="#" class="view-all-button">View All</a>
             </div>
@@ -256,6 +368,6 @@
             </div>
         </footer>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-pzjw8f+ua7Kw1TIq0pZ6hXumxW/tI8f8pKdmSMuFONpEECczklB5RU6mA/WwF5nb8" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     </body>
 </html>

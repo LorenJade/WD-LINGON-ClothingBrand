@@ -1,0 +1,158 @@
+/* Navigation Bar */
+.navbar .container-fluid {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.navbar .navbar-brand {
+    margin: 0 auto;
+}
+
+.navbar .left-side-icons, .navbar .right-side-icons {
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.navbar .left-side-icons {
+    left: 10px;
+}
+
+.navbar .right-side-icons {
+    right: 10px;
+}
+
+.navbar .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.navbar .nav-link i {
+    color: #E60012;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover i {
+    color: #333;
+}
+
+.navbar .left-side-icons a, .navbar .right-side-icons a {
+    color: #E60012;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.nav-link {
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+
+
+
+
+/* Footer */
+.footer {
+    background-color: #f9f9f9; 
+    padding: 5rem;
+    font-family: Arial, sans-serif;
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.footer-col,
+.about-col,
+.account-col,
+.social-col {
+    flex: 1;
+    min-width: 180px;
+    margin-bottom: 20px;
+}
+
+.footer h4 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    color: #666;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+}
+
+.footer ul li a:hover {
+    color: #E60012;
+}
+
+.footer .social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.footer .social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background-color: #ccc;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.footer .social-icon:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+
+@media (max-width: 768px) {
+    .footer .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-col,
+    .about-col,
+    .account-col,
+    .social-col {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer .social-icons {
+        justify-content: center;
+    }
+}
