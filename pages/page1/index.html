@@ -140,24 +140,24 @@
                 <!-- Logo and Navigation Items -->
                 <div class="d-flex flex-column align-items-center mx-auto">
 
-                    <!-- Logo -->
-                    <a class="navbar-brand" href="#home">
+                    <!-- Logo links to home -->
+                    <a class="navbar-brand" href="../../index.html">
                         <img src="./assets/img/Uniqlo Logo.png" width="auto" height="80">
                     </a>
-                    
+
                     <!-- Navigation Items-->
                     <ul class="navbar-nav d-flex flex-row mt-3">
                         <li class="nav-item me-4">
-                            <a class="nav-link" href="#home">HOME</a>
+                            <a class="nav-link" href="../../index.html">HOME</a>
                         </li>
                         <li class="nav-item me-4">
                             <a class="nav-link" href="#shop">SHOP</a>
                         </li>
                         <li class="nav-item me-4">
-                            <a class="nav-link" href="#about">ABOUT</a>
+                            <a class="nav-link" href="../page2/index.html">ABOUT</a>
                         </li>
                         <li class="nav-item me-4">
-                            <a class="nav-link" href="#contact">CONTACT</a>
+                            <a class="nav-link" href="../page3/index.html">CONTACT</a>
                         </li>
                     </ul>
                 </div>
@@ -178,21 +178,18 @@
         </nav>
 
         <!-- Shop -->
-        <section class="products">
-            <h1>Products</h1>
-
-            <!-- Products Carousel -->
-            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
+        <!-- Products Carousel -->
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
                     <img src="https://im.uniqlo.com/global-cms/spa/resd9ab23e01daf9f07b5ce636d58b5a2d8fr.jpg" class="d-block w-100" alt="carousel-arcane">
-                  </div>
-                  <div class="carousel-item">
+                </div>
+                <div class="carousel-item">
                     <img src="https://im.uniqlo.com/global-cms/spa/resf783f63836bf9404347ebdc5abe2de80fr.jpg" class="d-block w-100" alt="carousel-mofusand">
-                  </div>
-                  <div class="carousel-item">
+                </div>
+                <div class="carousel-item">
                     <img src="https://im.uniqlo.com/global-cms/spa/resf616042cb6f3359b7c696a8b631f9da7fr.jpg" class="d-block w-100" alt="carousel-mickey">
-                  </div>
+                </div>
                 </div>
               
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -205,10 +202,476 @@
                 </button>
               </div>
 
-              <!-- Products Carousel -->
-            
-
+        <!-- Products Log -->
+        <section class="products">
+            <h1 class="text-center">Products</h1>
+            <div class="d-flex justify-content-center gap-3">
+                <button type="button" class="btn btn-primary">
+                    <a href="#women" class="text-decoration-none text-white">WOMEN</a>
+                </button>
+                <button type="button" class="btn btn-primary">
+                    <a href="#men" class="text-decoration-none text-white">MEN</a>
+                </button>
+                <button type="button" class="btn btn-primary">
+                    <a href="#kids" class="text-decoration-none text-white">KIDS</a>
+                </button>
+                <button type="button" class="btn btn-primary">
+                    <a href="#babies" class="text-decoration-none text-white">BABIES</a>
+                </button>
+            </div>
         </section>
+
+        <!-- WOMEN -->
+        <section id="women" class="products-section">
+            <h1>Women</h1>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <!-- Women Product 1 -->
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modalWomen1" class="text-decoration-none">
+                            <div class="card">
+                                <img src="https://image.uniqlo.com/UQ/ST3/ph/imagesgoods/476771/item/phgoods_12_476771_3x4.jpg?width=294" class="card-img-top" alt="women-shirt">
+                                <div class="card-body">
+                                    <p class="card-text">WOMEN</p>
+                                    <h5 class="card-title">Supima Cotton T-Shirt</h5>
+                                    <p class="card-price">PHP 590.00</p>
+                                    <p class="card-rating">★ 4.9</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+        
+                    <!-- Women Product 2 -->
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modalWomen2" class="text-decoration-none">
+                            <div class="card">
+                                <img src="https://image.uniqlo.com/UQ/ST3/ph/imagesgoods/471677/item/phgoods_57_471677_3x4.jpg?width=369" class="card-img-top" alt="women-dress">
+                                <div class="card-body">
+                                    <p class="card-text">WOMEN</p>
+                                    <h5 class="card-title">Ruffle Sleeve Dress</h5>
+                                    <p class="card-price">PHP 790.00</p>
+                                    <p class="card-rating">★ 5.0</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+        
+                    <!-- Women Product 3 -->
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modalWomen3" class="text-decoration-none">
+                            <div class="card">
+                                <img src="https://image.uniqlo.com/UQ/ST3/ph/imagesgoods/469828/item/phgoods_32_469828_3x4.jpg?width=369" class="card-img-top" alt="women-bottoms">
+                                <div class="card-body">
+                                    <p class="card-text">WOMEN</p>
+                                    <h5 class="card-title">Wide Chino Pants</h5>
+                                    <p class="card-price">PHP 1190.00</p>
+                                    <p class="card-rating">★ 4.9</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Modal for Product 1 -->
+        <div class="modal fade" id="modalWomen1" tabindex="-1" aria-labelledby="modalWomen1Label" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalWomen1Label">Supima Cotton Sleeveless T-Shirt</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="https://image.uniqlo.com/UQ/ST3/ph/imagesgoods/476771/sub/phgoods_476771_sub24_3x4.jpg?width=369" class="img-fluid" alt="women-shirt">
+                        <p><strong>Price:</strong> PHP 590.00</p>
+                        <p><strong>Rating:</strong> ★ 4.9</p>
+                        <p><strong>Description:</strong> A classic, versatile sleeveless t-shirt made from Supima cotton, offering comfort and style for everyday wear.</p>
+                        <!-- Cart Button -->
+                        <button type="button" class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Modal for Product 2 -->
+        <div class="modal fade" id="modalWomen2" tabindex="-1" aria-labelledby="modalWomen2Label" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalWomen2Label">Ruffle Sleeve Dress</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/471677/sub/goods_471677_sub17_3x4.jpg?width=369" class="img-fluid" alt="women-dress">
+                        <p><strong>Price:</strong> PHP 790.00</p>
+                        <p><strong>Rating:</strong> ★ 5.0</p>
+                        <p><strong>Description:</strong> This flowy dress with ruffle sleeves is perfect for a casual day out, offering both comfort and femininity.</p>
+                        <!-- Cart Button -->
+                        <button type="button" class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Modal for Product 3 -->
+        <div class="modal fade" id="modalWomen3" tabindex="-1" aria-labelledby="modalWomen3Label" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalWomen3Label">Wide Chino Pants</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="https://image.uniqlo.com/UQ/ST3/ph/imagesgoods/469828/sub/phgoods_469828_sub23_3x4.jpg?width=369" class="img-fluid" alt="women-bottoms">
+                        <p><strong>Price:</strong> PHP 1190.00</p>
+                        <p><strong>Rating:</strong> ★ 4.9</p>
+                        <p><strong>Description:</strong> These wide chino pants provide a relaxed fit with a stylish look, perfect for both casual and semi-formal occasions.</p>
+                        <!-- Cart Button -->
+                        <button type="button" class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- MEN -->
+        <section id="men" class="products-section">
+            <h1>Men</h1>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <!-- Men Product 1 -->
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modalMen1" class="text-decoration-none">
+                            <div class="card">
+                                <img src="https://image.uniqlo.com/UQ/ST3/ph/imagesgoods/472592/item/phgoods_18_472592_3x4.jpg?width=294" class="card-img-top" alt="men-polo">
+                                <div class="card-body">
+                                    <p class="card-text">MEN</p>
+                                    <h5 class="card-title">Dry Pique Striped Polo Shirt</h5>
+                                    <p class="card-price">PHP 990.00</p>
+                                    <p class="card-rating">★ 4.6</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+        
+                    <!-- Men Product 2 -->
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modalMen2" class="text-decoration-none">
+                            <div class="card">
+                                <img src="https://image.uniqlo.com/UQ/ST3/ph/imagesgoods/470641/item/phgoods_38_470641_3x4.jpg?width=294" class="card-img-top" alt="men-sweater">
+                                <div class="card-body">
+                                    <p class="card-text">MEN</p>
+                                    <h5 class="card-title">Soft Knitted Fleece Sweater</h5>
+                                    <p class="card-price">PHP 990.00</p>
+                                    <p class="card-rating">★ 5.0</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+        
+                    <!-- Men Product 3 -->
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modalMen3" class="text-decoration-none">
+                            <div class="card">
+                                <img src="https://image.uniqlo.com/UQ/ST3/ph/imagesgoods/472498/item/phgoods_07_472498_3x4.jpg?width=294" class="card-img-top" alt="men-bottoms">
+                                <div class="card-body">
+                                    <p class="card-text">MEN</p>
+                                    <h5 class="card-title">Pleated Wide Pants</h5>
+                                    <p class="card-price">PHP 1490.00</p>
+                                    <p class="card-rating">★ 5.0</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Modal for Product 1 -->
+        <div class="modal fade" id="modalMen1" tabindex="-1" aria-labelledby="modalMen1Label" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalMen1Label">Dry Pique Striped Short Sleeve Polo Shirt</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/472592/sub/goods_472592_sub17_3x4.jpg?width=369" class="img-fluid" alt="men-polo">
+                        <p><strong>Price:</strong> PHP 990.00</p>
+                        <p><strong>Rating:</strong> ★ 4.6</p>
+                        <p><strong>Description:</strong> This breathable polo shirt is perfect for hot weather, offering a classic look with a striped design.</p>
+                        <!-- Cart Button -->
+                        <button type="button" class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Modal for Product 2 -->
+        <div class="modal fade" id="modalMen2" tabindex="-1" aria-labelledby="modalMen2Label" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalMen2Label">Soft Knitted Fleece Crew Neck Sweater</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="https://image.uniqlo.com/UQ/ST3/ph/imagesgoods/470641/sub/phgoods_470641_sub26_3x4.jpg?width=369" class="img-fluid" alt="men-sweater">
+                        <p><strong>Price:</strong> PHP 990.00</p>
+                        <p><strong>Rating:</strong> ★ 5.0</p>
+                        <p><strong>Description:</strong> Cozy fleece sweater with a soft texture and a crew neck design for added warmth in cooler months.</p>
+                        <!-- Cart Button -->
+                        <button type="button" class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Modal for Product 3 -->
+        <div class="modal fade" id="modalMen3" tabindex="-1" aria-labelledby="modalMen3Label" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalMen3Label">Pleated Wide Pants</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="https://image.uniqlo.com/UQ/ST3/ph/imagesgoods/472498/sub/phgoods_472498_sub24_3x4.jpg?width=369" class="img-fluid" alt="men-bottoms">
+                        <p><strong>Price:</strong> PHP 1490.00</p>
+                        <p><strong>Rating:</strong> ★ 5.0</p>
+                        <p><strong>Description:</strong> These pleated pants offer a relaxed yet modern look, combining comfort and style for everyday wear.</p>
+                        <!-- Cart Button -->
+                        <button type="button" class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- KIDS -->
+        <section id="kids" class="products-section">
+            <h1>Kids</h1>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <!-- Kids Product 1 -->
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modalKids1" class="text-decoration-none">
+                            <div class="card">
+                                <img src="https://image.uniqlo.com/UQ/ST3/ph/imagesgoods/474592/item/phgoods_30_474592_3x4.jpg?width=294" class="card-img-top" alt="kids-shirt">
+                                <div class="card-body">
+                                    <p class="card-text">KIDS</p>
+                                    <h5 class="card-title">KIDS AIRism Cotton T-Shirt</h5>
+                                    <p class="card-price">PHP 390.00</p>
+                                    <p class="card-rating">★ 5.0</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+        
+                    <!-- Kids Product 2 -->
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modalKids2" class="text-decoration-none">
+                            <div class="card">
+                                <img src="https://image.uniqlo.com/UQ/ST3/ph/imagesgoods/472661/item/phgoods_11_472661_3x4.jpg?width=294" class="card-img-top" alt="kids-dress">
+                                <div class="card-body">
+                                    <p class="card-text">KIDS</p>
+                                    <h5 class="card-title">GIRLS Camisole Dress</h5>
+                                    <p class="card-price">PHP 1,290.00</p>
+                                    <p class="card-rating">★ 5.0</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+        
+                    <!-- Kids Product 3 -->
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modalKids3" class="text-decoration-none">
+                            <div class="card">
+                                <img src="https://image.uniqlo.com/UQ/ST3/ph/imagesgoods/465115/item/phgoods_65_465115_3x4.jpg?width=369" class="card-img-top" alt="kids-bottoms">
+                                <div class="card-body">
+                                    <p class="card-text">KIDS</p>
+                                    <h5 class="card-title">KIDS Easy Shorts (Denim)</h5>
+                                    <p class="card-price">PHP 690.00</p>
+                                    <p class="card-rating">★ 4.9</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Modal for Product 1 -->
+        <div class="modal fade" id="modalKids1" tabindex="-1" aria-labelledby="modalKids1Label" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalKids1Label">KIDS AIRism Cotton Crew Neck T-Shirt</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="https://image.uniqlo.com/UQ/ST3/ph/imagesgoods/474592/feature/phgoods_474592_feature3.jpg" class="img-fluid" alt="kids-shirt">
+                        <p><strong>Price:</strong> PHP 390.00</p>
+                        <p><strong>Rating:</strong> ★ 5.0</p>
+                        <p><strong>Description:</strong> Comfortable and breathable AIRism cotton shirt designed for kids, perfect for warmer weather.</p>
+                        <!-- Cart Button -->
+                        <button type="button" class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Modal for Product 2 -->
+        <div class="modal fade" id="modalKids2" tabindex="-1" aria-labelledby="modalKids2Label" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalKids2Label">GIRLS Camisole Dress</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/472661/sub/goods_472661_sub17_3x4.jpg?width=369" class="img-fluid" alt="kids-dress">
+                        <p><strong>Price:</strong> PHP 1,290.00</p>
+                        <p><strong>Rating:</strong> ★ 5.0</p>
+                        <p><strong>Description:</strong> A cute and comfortable camisole dress for girls, ideal for warm days.</p>
+                        <!-- Cart Button -->
+                        <button type="button" class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Modal for Product 3 -->
+        <div class="modal fade" id="modalKids3" tabindex="-1" aria-labelledby="modalKids3Label" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalKids3Label">KIDS Easy Shorts (Denim)</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/465115/sub/goods_465115_sub17_3x4.jpg?width=369" class="img-fluid" alt="kids-bottoms">
+                        <p><strong>Price:</strong> PHP 690.00</p>
+                        <p><strong>Rating:</strong> ★ 4.9</p>
+                        <p><strong>Description:</strong> Comfortable denim shorts for kids, perfect for casual outings during the summer.</p>
+                        <!-- Cart Button -->
+                        <button type="button" class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- BABIES -->
+        <section id="babies" class="products-section">
+            <h1>Babies</h1>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <!-- Baby Product 1 -->
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modalBaby1" class="text-decoration-none">
+                            <div class="card">
+                                <img src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/469567/item/goods_51_469567_3x4.jpg?width=294" class="card-img-top" alt="baby-bodysuit">
+                                <div class="card-body">
+                                    <p class="card-text">BABY</p>
+                                    <h5 class="card-title">One Piece Long Sleeve Outfit</h5>
+                                    <p class="card-price">PHP 790.00</p>
+                                    <p class="card-rating">★ 5.0</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+        
+                    <!-- Baby Product 2 -->
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modalBaby2" class="text-decoration-none">
+                            <div class="card">
+                                <img src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/472831/item/goods_71_472831_3x4.jpg?width=369" class="card-img-top" alt="baby-pajama">
+                                <div class="card-body">
+                                    <p class="card-text">BABY</p>
+                                    <h5 class="card-title">Dry Short Sleeve Pajamas</h5>
+                                    <p class="card-price">PHP 590.00</p>
+                                    <p class="card-rating">★ 5.0</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+        
+                    <!-- Baby Product 3 -->
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modalBaby3" class="text-decoration-none">
+                            <div class="card">
+                                <img src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/469637/item/goods_10_469637_3x4.jpg?width=369" class="card-img-top" alt="baby-hoodie">
+                                <div class="card-body">
+                                    <p class="card-text">BABY</p>
+                                    <h5 class="card-title">PUFFTECH Full-Zip Parka</h5>
+                                    <p class="card-price">PHP 1,990.00</p>
+                                    <p class="card-rating">★ 5.0</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Modal for Product 1 -->
+        <div class="modal fade" id="modalBaby1" tabindex="-1" aria-labelledby="modalBaby1Label" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalBaby1Label">One Piece Long Sleeve Outfit</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="https://image.uniqlo.com/UQ/ST3/ph/imagesgoods/469567/sub/phgoods_469567_sub26_3x4.jpg?width=369" class="img-fluid" alt="baby-bodysuit">
+                        <p><strong>Price:</strong> PHP 790.00</p>
+                        <p><strong>Rating:</strong> ★ 5.0</p>
+                        <p><strong>Description:</strong> Comfortable one-piece outfit for babies with long sleeves, perfect for the colder months.</p>
+                        <!-- Cart Button -->
+                        <button type="button" class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Modal for Product 2 -->
+        <div class="modal fade" id="modalBaby2" tabindex="-1" aria-labelledby="modalBaby2Label" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalBaby2Label">Dry Short Sleeve Pajamas</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/472831/sub/goods_472831_sub18_3x4.jpg?width=369" class="img-fluid" alt="baby-pajama">
+                        <p><strong>Price:</strong> PHP 590.00</p>
+                        <p><strong>Rating:</strong> ★ 5.0</p>
+                        <p><strong>Description:</strong> Soft and breathable short-sleeve pajamas designed to keep babies comfortable while sleeping.</p>
+                        <!-- Cart Button -->
+                        <button type="button" class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Modal for Product 3 -->
+        <div class="modal fade" id="modalBaby3" tabindex="-1" aria-labelledby="modalBaby3Label" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalBaby3Label">PUFFTECH Washable Full-Zip Parka</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="https://image.uniqlo.com/UQ/ST3/ph/imagesgoods/469637/sub/phgoods_469637_sub25_3x4.jpg?width=369" class="img-fluid" alt="baby-hoodie">
+                        <p><strong>Price:</strong> PHP 1,990.00</p>
+                        <p><strong>Rating:</strong> ★ 5.0</p>
+                        <p><strong>Description:</strong> A soft, washable full-zip parka for babies, ideal for cooler weather.</p>
+                        <!-- Cart Button -->
+                        <button type="button" class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- Footer -->
         <footer class="footer">

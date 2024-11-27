@@ -1,3 +1,8 @@
+/* Body */
+html {
+    scroll-behavior: smooth;
+}
+
 /* Navigation Bar */
 .navbar .container-fluid {
     display: flex;
@@ -52,8 +57,243 @@
     transition: color 0.3s ease-in-out;
 }
 
+/* Offcanvas */
+#languageOffCanvasLabel {
+    font-size: 2rem;
+}
+
+#languageOffcanvas {
+    max-width: 300px;
+}
+
+#languageOffcanvas .list-group-item {
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#languageOffcanvas .list-group-item:hover {
+    background-color: #f0f0f0;
+}
+
+/* Offcanvas Button Styling */
+.btn-close {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    color: #333;
+    opacity: 1;
+}
+
+.btn-close:hover {
+    color: #e60012;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Offcanvas Header Styling */
+.offcanvas-header {
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+    padding: 1rem 1.5rem;
+}
+
+.offcanvas-header h5 {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+
+/* Offcanvas Body Styling */
+.offcanvas-body {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.offcanvas-body .btn-link {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    padding: 0.5rem 0;
+    display: block;
+}
+
+.offcanvas-body .btn-link:hover {
+    color: #e60012;
+    text-decoration: underline;
+}
+
+/* Overall Offcanvas Styling */
+.offcanvas {
+    border-right: 1px solid #ddd;
+}
+
+/* Products Navigation */
+.products {
+    background-color: #d93d4a;
+    padding: 20px;
+}
+
+.products h1 {
+    font-size: 3rem;
+    padding: 1.5rem;
+    color: #ffffff;
+}
+
+.products .btn {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #333;
+    color: #ffffff;
+    border: none;
+    margin: 10px 5px;
+    width: 10rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.products .btn:hover {
+    background-color: #d4d4d4;
+}
+
+@media (max-width: 576px) {
+    .products .btn {
+        width: 100%;
+    }
+}
 
 
+/* Products Cards */
+.card-body {
+    color: #000000;
+}
+
+.card-text {
+    color: #9d9d9d;
+}
+
+.card-price {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #E60012;
+}
+
+.products-section h1 {
+    text-align: center;
+    padding: 3rem;
+    font-size: 2.5rem;
+}
+
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    max-width: 20rem;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-body .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.card-price {
+    font-size: 1rem;
+    color: #d71921;
+}
+
+.card-rating {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    .card {
+        max-width: 18rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .card {
+        max-width: 16rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        max-width: 14rem;
+    }
+}
+
+/* Modal Styling  */
+/* Modal Image */
+.modal-body img {
+    width: 100%;
+    height: auto;
+    max-height: 30rem;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+/* Cart Button */
+.modal-body button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.modal-body button:hover {
+    background-color: #E60012; /* Change color to red when hovered */
+}
+
+/* Modal Title */
+.modal-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.modal-body p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+/* Responsiveness: For smaller screens */
+@media (max-width: 768px) {
+    .modal-content {
+        width: 90%;
+    }
+    .modal-title {
+        font-size: 1.2rem;
+    }
+    .modal-body p {
+        font-size: 0.9rem;
+    }
+    .modal-body .card-price {
+        font-size: 1rem;
+    }
+}
+
+.modal-body {
+    position: relative;
+    padding: 20px;
+    padding-bottom: 80px;
+}
 
 
 /* Footer */

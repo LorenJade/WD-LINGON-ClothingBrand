@@ -1,3 +1,8 @@
+/* Body */
+html {
+    scroll-behavior: smooth;
+}
+
 /* Navigation Bar */
 .navbar .container-fluid {
     display: flex;
@@ -53,7 +58,6 @@
 }
 
 /* Offcanvas */
-
 #languageOffCanvasLabel {
     font-size: 2rem;
 }
@@ -176,6 +180,7 @@
 
 .hero h2 {
     font-family: 'Arial Black', sans-serif;
+    font-size: 2rem;
 }
 
 .card-body h5 {
