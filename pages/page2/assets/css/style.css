@@ -1,0 +1,859 @@
+/* Body */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navigation Bar */
+.navbar .container-fluid {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.navbar .navbar-brand {
+    margin: 0 auto;
+}
+
+.navbar .left-side-icons, .navbar .right-side-icons {
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.navbar .left-side-icons {
+    left: 10px;
+}
+
+.navbar .right-side-icons {
+    right: 10px;
+}
+
+.navbar .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.navbar .nav-link i {
+    color: #E60012;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover i {
+    color: #333;
+}
+
+.navbar .left-side-icons a, .navbar .right-side-icons a {
+    color: #E60012;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.nav-link {
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Offcanvas */
+#languageOffCanvasLabel {
+    font-size: 2rem;
+}
+
+#languageOffcanvas {
+    max-width: 300px;
+}
+
+#languageOffcanvas .list-group-item {
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#languageOffcanvas .list-group-item:hover {
+    background-color: #f0f0f0;
+}
+
+/* Offcanvas Button Styling */
+.btn-close {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    color: #333;
+    opacity: 1;
+}
+
+.btn-close:hover {
+    color: #e60012;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Offcanvas Header Styling */
+.offcanvas-header {
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+    padding: 1rem 1.5rem;
+}
+
+.offcanvas-header h5 {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+
+/* Offcanvas Body Styling */
+.offcanvas-body {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.offcanvas-body .btn-link {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    padding: 0.5rem 0;
+    display: block;
+}
+
+.offcanvas-body .btn-link:hover {
+    color: #e60012;
+    text-decoration: underline;
+}
+
+/* Overall Offcanvas Styling */
+.offcanvas {
+    border-right: 1px solid #ddd;
+}
+
+/* About Uniqlo Page Layout */
+.about {
+    padding: 20px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+@media (max-width: 768px) {
+    .row {
+        grid-template-columns: 1fr;
+    }
+}
+
+#navbar-example3 {
+    border-right: 2px solid #e6e6e6;
+    padding-right: 20px;
+    height: auto;
+    background-color: #fff;
+}
+
+#navbar-example3 .nav-link {
+    color: #333;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    display: block;
+    text-decoration: none;
+}
+
+#navbar-example3 .nav-link:hover {
+    background-color: #f1f1f1;
+    color: #e60012;
+}
+
+#navbar-example3 {
+    padding-top: 10px;
+}
+
+#about-uniqlo, #info {
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #e60012;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .scrollspy-example-2 {
+        padding: 15px;
+    }
+
+    #navbar-example3 {
+        border-right: none;
+        border-bottom: 2px solid #e6e6e6;
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    #navbar-example3 .nav-link {
+        font-size: 1rem;
+        padding: 8px 12px;
+    }
+}
+
+/* General Heading Styling for All Sections */
+#about-uniqlo h1, #help h1, #account h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #e60012;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 768px) {
+    #about-uniqlo h1, #help h1, #account h1 {
+    font-size: 2.5rem;
+    letter-spacing: 0.5px;
+    }
+}
+
+/* Information Section */
+#info {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 30px 0;
+}
+
+#info h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#info p {
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.6;
+    margin: 10px 0;
+    text-align: center;
+}
+
+#info p br {
+    margin-bottom: 10px;
+}
+
+#info img {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    #info {
+    padding: 20px;
+    }
+
+    #info h2 {
+    font-size: 2rem;
+    }
+
+    #info p {
+    font-size: 1rem;
+    }
+
+    #info img {
+    max-width: 200px;
+    }
+}
+
+/* Careers Section */
+#careers {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 30px 0;
+}
+
+#careers h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#careers p {
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.6;
+    margin: 10px 0;
+    text-align: center;
+}
+
+#careers img {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    #careers {
+    padding: 20px;
+    }
+
+    #careers h2 {
+    font-size: 2rem;
+    }
+
+    #careers p {
+    font-size: 1rem;
+    }
+}
+
+/* Sustainability Section */
+#sustainability {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 30px 0;
+}
+
+#sustainability h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#sustainability p {
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.6;
+    margin: 10px 0;
+    text-align: center;
+}
+
+#sustainability img {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    #sustainability {
+    padding: 20px;
+    }
+
+    #sustainability h2 {
+    font-size: 2rem;
+    }
+
+    #sustainability p {
+    font-size: 1rem;
+    }
+
+    #sustainability img {
+    max-width: 300px;
+    }
+}
+
+/* Gift Service */
+#gift-service {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 30px 0;
+}
+
+#gift-service h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#gift-service img {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+#gift-service p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+    margin: 10px 0;
+    text-align: center;
+}
+
+#gift-service h6 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #e60012; /* Uniqlo Red */
+    margin-top: 20px;
+    text-align: center;
+}
+
+#gift-service p br {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    #gift-service {
+    padding: 20px;
+    }
+
+    #gift-service h2 {
+    font-size: 2rem;
+    }
+
+    #gift-service h6 {
+    font-size: 1rem;
+    }
+
+    #gift-service p {
+    font-size: 0.9rem;
+    }
+}
+
+/* FAQ Section */
+#faq {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    color: #333;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+/* FAQ Heading */
+#faq h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#faq {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    color: #333;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.accordion-item {
+    margin-bottom: 10px;
+    border: 1px solid #e6e6e6;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.accordion-header {
+    background-color: #e60012;
+    border: none;
+    border-radius: 8px 8px 0 0;
+}
+
+.accordion-button {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #e60012;
+    border: none;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #b3000c;
+    color: #fff;
+}
+
+.accordion-button:hover {
+    background-color: #b3000c;
+}
+
+.accordion-body {
+    position: relative;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-top: 1px solid #e6e6e6;
+    border-radius: 0 0 8px 8px;
+}
+
+.accordion-body img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .accordion-body img {
+        max-width: 90%;
+        margin: 15px auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .accordion-body img {
+        max-width: 100%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    #faq h2 {
+        font-size: 2rem;
+    }
+
+    .accordion-button {
+        font-size: 1rem;
+        padding: 8px 15px;
+    }
+}
+
+
+/* Return Policy Section */
+#return-policy {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 30px 0;
+}
+
+#return-policy h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#return-policy ol {
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.8;
+    margin-left: 30px;
+}
+
+#return-policy ol li {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    #return-policy {
+    padding: 20px;
+    }
+
+    #return-policy h2 {
+    font-size: 2rem;
+    }
+
+    #return-policy ol {
+    font-size: 1rem;
+    }
+}
+
+/* Bulk Order Section */
+#bulk-order {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 30px 0;
+}
+
+#bulk-order h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#bulk-order p {
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.8;
+    margin: 10px 0;
+    text-align: center;
+}
+
+#bulk-order img {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    #bulk-order {
+    padding: 20px;
+    }
+
+    #bulk-order h2 {
+    font-size: 2rem;
+    }
+
+    #bulk-order p {
+    font-size: 1rem;
+    }
+
+    #bulk-order img {
+    max-width: 300px;
+    }
+}
+
+/* Accessibility Section */
+#accessibility {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 30px 0;
+}
+
+#accessibility h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#accessibility p {
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.8;
+    margin: 10px 0;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    #accessibility {
+    padding: 20px;
+    }
+
+    #accessibility h2 {
+    font-size: 2rem;
+    }
+
+    #accessibility p {
+    font-size: 1rem;
+    }
+}
+
+/* UNIQLO App Section */
+#uniqlo-app {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 30px 0;
+    text-align: center;
+}
+
+#uniqlo-app h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#uniqlo-app img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+#uniqlo-app .d-flex {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#uniqlo-app a img {
+    height: 60px;
+    width: auto;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover Effect */
+#uniqlo-app a:hover img {
+    opacity: 0.8;
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    #uniqlo-app {
+    padding: 20px;
+    }
+
+    #uniqlo-app h2 {
+    font-size: 2rem;
+    }
+
+    #uniqlo-app .d-flex {
+    gap: 10px;
+    }
+
+    #uniqlo-app img {
+    max-width: 400px;
+    }
+}
+
+/* Footer */
+.footer {
+    background-color: #f9f9f9;
+    padding: 5rem;
+    font-family: Arial, sans-serif;
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.footer-col,
+.about-col,
+.account-col,
+.social-col {
+    flex: 1;
+    min-width: 180px;
+    margin-bottom: 20px;
+}
+
+.footer h4 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    color: #666;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+}
+
+.footer ul li a:hover {
+    color: #E60012;
+}
+
+.footer .social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.footer .social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background-color: #ccc;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.footer .social-icon:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+
+@media (max-width: 768px) {
+    .footer .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-col,
+    .about-col,
+    .account-col,
+    .social-col {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer .social-icons {
+        justify-content: center;
+    }
+}
