@@ -58,7 +58,6 @@
 ## Overview
 
 <!-- TODO: To be changed -->
-<!-- The following are just sample -->
 The repository is a website of Uniqlo, a Japanese casual wear designer and retailer well-known for its LifeWear concept, which aims to give customers premium everyday apparel. The website's objective is to present Uniqlo's clothing in an engaging and responsive manner that works on all devices (or at least those that fall within the desktop to tablet/iPad range). It uses HTML, CSS, and JavaScript bootstrap elements, and its main features include a multi-page, interactive website with clickable and hover buttons and visually appealing banners, images, and slideshows.
 
 <!--Guiding Question:
@@ -129,7 +128,7 @@ WD-ProjectName
 | Footer | How to layout Footer | https://www.w3schools.com/html/html_layout.asp |
 | Modal | A small pop up container for notifications and additional custom content | https://getbootstrap.com/docs/5.3/components/modal/ |
 | Navbar | Navigation bar located on top of the website | https://getbootstrap.com/docs/5.3/components/navbar/ |
-| Off Canvas | A side menu / component that appears at the side of the website | https://getbootstrap.com/docs/5.3/components/offcanvas/ |
 | Nested Nav | A scrollspy component indicating position | https://getbootstrap.com/docs/5.3/components/scrollspy/ |
+| Off Canvas | A side menu / component that appears at the side of the website | https://getbootstrap.com/docs/5.3/components/offcanvas/ |
 | Social Media Icons | How to style social media buttons using CSS | https://www.w3schools.com/howto/howto_css_social_media_buttons.asp |
 | Uniqlo PH | The official website of Uniqlo where the images are collected | https://www.uniqlo.com/ph/en/ |
