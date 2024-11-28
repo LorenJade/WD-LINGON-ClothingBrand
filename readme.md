@@ -13,7 +13,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  A final project of a website designed by Loren Jade F. Lingon from BMA TD21 for the clothing brand, Uniqlo.
+  A final project in CCS0027 of a website designed by Loren Jade F. Lingon from BMA TD21 for the clothing brand, Uniqlo.
 </div>
 
 <br />
