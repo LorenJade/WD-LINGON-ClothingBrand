@@ -13,14 +13,14 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  A final project of a website designed by Loren Jade F. Lingon from BMA TD21 for the clothing brand Uniqlo.
+  A final project of a website designed by Loren Jade F. Lingon from BMA TD21 for the clothing brand, Uniqlo.
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![]https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-LINGON-ClothingBrand
+![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-LINGON_ClothingBrand)
 
 [![wakatime](https://wakatime.com/badge/user/030f1a55-0207-40f8-af4f-6abbce842f40/project/d3e1574e-0d6b-4acd-a474-7aeba1c664c0.svg)](https://wakatime.com/badge/user/030f1a55-0207-40f8-af4f-6abbce842f40/project/d3e1574e-0d6b-4acd-a474-7aeba1c664c0)
 
