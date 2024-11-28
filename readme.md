@@ -20,7 +20,7 @@
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-LINGON-ClothingBrand
+![]https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-LINGON-ClothingBrand
 
 [![wakatime](https://wakatime.com/badge/user/030f1a55-0207-40f8-af4f-6abbce842f40/project/d3e1574e-0d6b-4acd-a474-7aeba1c664c0.svg)](https://wakatime.com/badge/user/030f1a55-0207-40f8-af4f-6abbce842f40/project/d3e1574e-0d6b-4acd-a474-7aeba1c664c0)
 
@@ -121,8 +121,15 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
 | Bootstrap | A frontend library for websites | https://getbootstrap.com/docs/5.3/getting-started/introduction/ |
-| Uniqlo PH | The official website of Uniqlo where the images are collected | https://www.uniqlo.com/ph/en/ |
+| Accordion | Vertically collapsing accordion | https://getbootstrap.com/docs/5.3/components/accordion/ |
+| Buttons | Customs buttons to interact | https://getbootstrap.com/docs/5.3/components/buttons/ |
+| Card | Custom content containers | https://getbootstrap.com/docs/5.3/components/card/ |
+| Carousel | A slideshow for cycling images | https://getbootstrap.com/docs/5.3/components/carousel/ |
 | Footer | How to layout Footer | https://www.w3schools.com/html/html_layout.asp |
+| Modal | A small pop up container for notifications and additional custom content | https://getbootstrap.com/docs/5.3/components/modal/ |
+| Navbar | Navigation bar located on top of the website | https://getbootstrap.com/docs/5.3/components/navbar/ |
+| Off Canvas | A side menu / component that appears at the side of the website | https://getbootstrap.com/docs/5.3/components/offcanvas/ |
+| Nested Nav | A scrollspy component indicating position | https://getbootstrap.com/docs/5.3/components/scrollspy/ |
 | Social Media Icons | How to style social media buttons using CSS | https://www.w3schools.com/howto/howto_css_social_media_buttons.asp |
+| Uniqlo PH | The official website of Uniqlo where the images are collected | https://www.uniqlo.com/ph/en/ |
