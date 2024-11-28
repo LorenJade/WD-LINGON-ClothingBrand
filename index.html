@@ -162,15 +162,69 @@
 
                 <!-- Right-side Icons: User, Wishlist, Cart -->
                 <div class="right-side-icons d-flex justify-content-center">
-                    <a href="#" class="nav-link px-2">
+                    <a href="#" class="nav-link px-2" data-bs-toggle="modal" data-bs-target="#userModal">
                         <i class="fas fa-user"></i>
                     </a>
-                    <a href="#" class="nav-link px-2">
+                    <a href="#" class="nav-link px-2" data-bs-toggle="modal" data-bs-target="#wishlistModal">
                         <i class="fas fa-heart"></i>
                     </a>
-                    <a href="#" class="nav-link px-2">
+                    <a href="#" class="nav-link px-2" data-bs-toggle="modal" data-bs-target="#cartModal">
                         <i class="fas fa-shopping-cart"></i>
                     </a>
+                </div>
+
+                <!-- User Modal -->
+                <div class="modal fade" id="userModal" tabindex="-1" aria-labelledby="userModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="userModalLabel">Login User</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Welcome back! Please log in to access your account and enjoy a personalized shopping experience.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                    </div>
+                </div>
+                </div>
+
+                <!-- Wishlist Modal -->
+                <div class="modal fade" id="wishlistModal" tabindex="-1" aria-labelledby="wishlistModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="wishlistModalLabel">Wishlist</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Your wishlist is currently empty. Start adding your favorite items!
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                    </div>
+                </div>
+                </div>
+
+                <!-- Cart Modal -->
+                <div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="cartModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="cartModalLabel">Shopping Cart</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Your cart is empty. Add items to your cart and they'll appear here!
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                    </div>
+                </div>
                 </div>
             </div>
         </nav>
@@ -297,8 +351,8 @@
         <!-- Sign In Section -->
         <section class="sign-up">
             <h2>Get on our list!</h2>
-            <p>Sign up to get the latest updates, exclusive deals and special promos.</p>
-            <a href="#" class="sign-button">
+            <p>Sign up to get the latest updates, exclusive deals, and special promos.</p>
+            <a href="#" class="sign-button" data-bs-toggle="modal" data-bs-target="#userModal">
                 <span>Sign In</span>
             </a>
         </section>
@@ -346,9 +400,9 @@
                         <h4>ACCOUNT</h4>
                         <ul>
                             <li><a href="./pages/page2/index.html">UNIQLO App</a></li>
-                            <li><a href="#">Membership</a></li>
-                            <li><a href="#">Profile</a></li>
-                            <li><a href="#">Coupons</a></li>
+                            <li><a href="#" data-bs-toggle="modal" data-bs-target="#userModal">Membership</a></li>
+                            <li><a href="#" data-bs-toggle="modal" data-bs-target="#userModal">Profile</a></li>
+                            <li><a href="#" data-bs-toggle="modal" data-bs-target="#userModal">Coupons</a></li>
                         </ul>
                     </div>
                     

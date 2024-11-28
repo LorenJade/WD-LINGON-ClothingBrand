@@ -10,11 +10,6 @@
         <link rel="stylesheet" href="./assets/css/style.css">
     </head>
     <body>
-<!-- REQUIREMENT:
- - 4 pages: landing page, about page, contact and menu of services/products page
- - min of 3 products and each has their own modal or page
- - tailwind / bootstrap not required but recommended
- - atleast tablet useful -->
 
         <!-- SHOP/PRODUCTS PAGE -->
 
@@ -166,16 +161,70 @@
 
                 <!-- Right-side Icons: User, Wishlist, Cart -->
                 <div class="right-side-icons d-flex justify-content-center">
-                    <a href="#" class="nav-link px-2">
+                    <a href="#" class="nav-link px-2" data-bs-toggle="modal" data-bs-target="#userModal">
                         <i class="fas fa-user"></i>
                     </a>
-                    <a href="#" class="nav-link px-2">
+                    <a href="#" class="nav-link px-2" data-bs-toggle="modal" data-bs-target="#wishlistModal">
                         <i class="fas fa-heart"></i>
                     </a>
-                    <a href="#" class="nav-link px-2">
+                    <a href="#" class="nav-link px-2" data-bs-toggle="modal" data-bs-target="#cartModal">
                         <i class="fas fa-shopping-cart"></i>
                     </a>
                 </div>
+
+                <!-- User Modal -->
+                <div class="modal fade" id="userModal" tabindex="-1" aria-labelledby="userModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="userModalLabel">Login User</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Welcome back! Please log in to access your account and enjoy a personalized shopping experience.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+    
+                    <!-- Wishlist Modal -->
+                    <div class="modal fade" id="wishlistModal" tabindex="-1" aria-labelledby="wishlistModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="wishlistModalLabel">Wishlist</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Your wishlist is currently empty. Start adding your favorite items!
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+    
+                    <!-- Cart Modal -->
+                    <div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="cartModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="cartModalLabel">Shopping Cart</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Your cart is empty. Add items to your cart and they'll appear here!
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
             </div>
         </nav>
 
@@ -281,10 +330,10 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="modalWomen1Label">Supima Cotton Sleeveless T-Shirt</h5>
+                        <h5 class="modal-title2" id="modalWomen1Label">Supima Cotton Sleeveless T-Shirt</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="modal-body">
+                    <div class="modal-body2">
                         <img src="https://image.uniqlo.com/UQ/ST3/ph/imagesgoods/476771/sub/phgoods_476771_sub24_3x4.jpg?width=369" class="img-fluid" alt="women-shirt">
                         <p><strong>Price:</strong> PHP 590.00</p>
                         <p><strong>Rating:</strong> ★ 4.9</p>
@@ -301,10 +350,10 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="modalWomen2Label">Ruffle Sleeve Dress</h5>
+                        <h5 class="modal-title2" id="modalWomen2Label">Ruffle Sleeve Dress</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="modal-body">
+                    <div class="modal-body2">
                         <img src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/471677/sub/goods_471677_sub17_3x4.jpg?width=369" class="img-fluid" alt="women-dress">
                         <p><strong>Price:</strong> PHP 790.00</p>
                         <p><strong>Rating:</strong> ★ 5.0</p>
@@ -321,10 +370,10 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="modalWomen3Label">Wide Chino Pants</h5>
+                        <h5 class="modal-title2" id="modalWomen3Label">Wide Chino Pants</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="modal-body">
+                    <div class="modal-body2">
                         <img src="https://image.uniqlo.com/UQ/ST3/ph/imagesgoods/469828/sub/phgoods_469828_sub23_3x4.jpg?width=369" class="img-fluid" alt="women-bottoms">
                         <p><strong>Price:</strong> PHP 1190.00</p>
                         <p><strong>Rating:</strong> ★ 4.9</p>
@@ -394,10 +443,10 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="modalMen1Label">Dry Pique Striped Short Sleeve Polo Shirt</h5>
+                        <h5 class="modal-title2" id="modalMen1Label">Dry Pique Striped Short Sleeve Polo Shirt</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="modal-body">
+                    <div class="modal-body2">
                         <img src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/472592/sub/goods_472592_sub17_3x4.jpg?width=369" class="img-fluid" alt="men-polo">
                         <p><strong>Price:</strong> PHP 990.00</p>
                         <p><strong>Rating:</strong> ★ 4.6</p>
@@ -414,10 +463,10 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="modalMen2Label">Soft Knitted Fleece Crew Neck Sweater</h5>
+                        <h5 class="modal-title2" id="modalMen2Label">Soft Knitted Fleece Crew Neck Sweater</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="modal-body">
+                    <div class="modal-body2">
                         <img src="https://image.uniqlo.com/UQ/ST3/ph/imagesgoods/470641/sub/phgoods_470641_sub26_3x4.jpg?width=369" class="img-fluid" alt="men-sweater">
                         <p><strong>Price:</strong> PHP 990.00</p>
                         <p><strong>Rating:</strong> ★ 5.0</p>
@@ -434,10 +483,10 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="modalMen3Label">Pleated Wide Pants</h5>
+                        <h5 class="modal-title2" id="modalMen3Label">Pleated Wide Pants</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="modal-body">
+                    <div class="modal-body2">
                         <img src="https://image.uniqlo.com/UQ/ST3/ph/imagesgoods/472498/sub/phgoods_472498_sub24_3x4.jpg?width=369" class="img-fluid" alt="men-bottoms">
                         <p><strong>Price:</strong> PHP 1490.00</p>
                         <p><strong>Rating:</strong> ★ 5.0</p>
@@ -507,10 +556,10 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="modalKids1Label">KIDS AIRism Cotton Crew Neck T-Shirt</h5>
+                        <h5 class="modal-title2" id="modalKids1Label">KIDS AIRism Cotton Crew Neck T-Shirt</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="modal-body">
+                    <div class="modal-body2">
                         <img src="https://image.uniqlo.com/UQ/ST3/ph/imagesgoods/474592/feature/phgoods_474592_feature3.jpg" class="img-fluid" alt="kids-shirt">
                         <p><strong>Price:</strong> PHP 390.00</p>
                         <p><strong>Rating:</strong> ★ 5.0</p>
@@ -527,10 +576,10 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="modalKids2Label">GIRLS Camisole Dress</h5>
+                        <h5 class="modal-title2" id="modalKids2Label">GIRLS Camisole Dress</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="modal-body">
+                    <div class="modal-body2">
                         <img src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/472661/sub/goods_472661_sub17_3x4.jpg?width=369" class="img-fluid" alt="kids-dress">
                         <p><strong>Price:</strong> PHP 1,290.00</p>
                         <p><strong>Rating:</strong> ★ 5.0</p>
@@ -547,10 +596,10 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="modalKids3Label">KIDS Easy Shorts (Denim)</h5>
+                        <h5 class="modal-title2" id="modalKids3Label">KIDS Easy Shorts (Denim)</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="modal-body">
+                    <div class="modal-body2">
                         <img src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/465115/sub/goods_465115_sub17_3x4.jpg?width=369" class="img-fluid" alt="kids-bottoms">
                         <p><strong>Price:</strong> PHP 690.00</p>
                         <p><strong>Rating:</strong> ★ 4.9</p>
@@ -620,10 +669,10 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="modalBaby1Label">One Piece Long Sleeve Outfit</h5>
+                        <h5 class="modal-title2" id="modalBaby1Label">One Piece Long Sleeve Outfit</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="modal-body">
+                    <div class="modal-body2">
                         <img src="https://image.uniqlo.com/UQ/ST3/ph/imagesgoods/469567/sub/phgoods_469567_sub26_3x4.jpg?width=369" class="img-fluid" alt="baby-bodysuit">
                         <p><strong>Price:</strong> PHP 790.00</p>
                         <p><strong>Rating:</strong> ★ 5.0</p>
@@ -640,10 +689,10 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="modalBaby2Label">Dry Short Sleeve Pajamas</h5>
+                        <h5 class="modal-title2" id="modalBaby2Label">Dry Short Sleeve Pajamas</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="modal-body">
+                    <div class="modal-body2">
                         <img src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/472831/sub/goods_472831_sub18_3x4.jpg?width=369" class="img-fluid" alt="baby-pajama">
                         <p><strong>Price:</strong> PHP 590.00</p>
                         <p><strong>Rating:</strong> ★ 5.0</p>
@@ -660,10 +709,10 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="modalBaby3Label">PUFFTECH Washable Full-Zip Parka</h5>
+                        <h5 class="modal-title2" id="modalBaby3Label">PUFFTECH Washable Full-Zip Parka</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="modal-body">
+                    <div class="modal-body2">
                         <img src="https://image.uniqlo.com/UQ/ST3/ph/imagesgoods/469637/sub/phgoods_469637_sub25_3x4.jpg?width=369" class="img-fluid" alt="baby-hoodie">
                         <p><strong>Price:</strong> PHP 1,990.00</p>
                         <p><strong>Rating:</strong> ★ 5.0</p>
@@ -707,9 +756,9 @@
                         <h4>ACCOUNT</h4>
                         <ul>
                             <li><a href="../page2/index.html">UNIQLO App</a></li>
-                            <li><a href="#">Membership</a></li>
-                            <li><a href="#">Profile</a></li>
-                            <li><a href="#">Coupons</a></li>
+                            <li><a href="#" data-bs-toggle="modal" data-bs-target="#userModal">Membership</a></li>
+                            <li><a href="#" data-bs-toggle="modal" data-bs-target="#userModal">Profile</a></li>
+                            <li><a href="#" data-bs-toggle="modal" data-bs-target="#userModal">Coupons</a></li>
                         </ul>
                     </div>
                     

@@ -3,11 +3,25 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    opacity: 0; /* Initially hide the body */
+    animation: fadeIn 1.0s ease-in forwards; /* 1.5s fade-in animation */
+}
+
+@keyframes fadeIn {
+    from {
+    opacity: 0;
+    }
+    to {
+    opacity: 1;
+    }
+}
+
 /* Navigation Bar */
 .navbar .container-fluid {
     display: flex;
-    justify-content: space-between; 
-    align-items: center; 
+    justify-content: space-between;
+    align-items: center;
 }
 
 .navbar .navbar-brand {
@@ -196,7 +210,7 @@ html {
     transform: scale(1.05);
 }
 
-.card-body .card-title {
+.card-body .card-title2 {
     font-size: 1.2rem;
     font-weight: bold;
     color: #333;
@@ -232,7 +246,7 @@ html {
 
 /* Modal Styling  */
 /* Modal Image */
-.modal-body img {
+.modal-body2 img {
     width: 100%;
     height: auto;
     max-height: 30rem;
@@ -241,7 +255,7 @@ html {
 }
 
 /* Cart Button */
-.modal-body button {
+.modal-body2 button {
     position: absolute;
     bottom: 20px;
     right: 20px;
@@ -255,18 +269,18 @@ html {
     transition: background-color 0.3s ease;
 }
 
-.modal-body button:hover {
+.modal-body2 button:hover {
     background-color: #E60012; /* Change color to red when hovered */
 }
 
 /* Modal Title */
-.modal-title {
+.modal-title2 {
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
-.modal-body p {
+.modal-body2 p {
     font-size: 1rem;
     color: #666;
     line-height: 1.5;
@@ -278,18 +292,18 @@ html {
     .modal-content {
         width: 90%;
     }
-    .modal-title {
+    .modal-title2 {
         font-size: 1.2rem;
     }
-    .modal-body p {
+    .modal-body2 p {
         font-size: 0.9rem;
     }
-    .modal-body .card-price {
+    .modal-body2 .card-price {
         font-size: 1rem;
     }
 }
 
-.modal-body {
+.modal-body2 {
     position: relative;
     padding: 20px;
     padding-bottom: 80px;
