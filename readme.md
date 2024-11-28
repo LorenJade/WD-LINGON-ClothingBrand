@@ -59,7 +59,7 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-The repository is a website of Uniqlo, a Japanese casual wear designer and retailer well-known for its LifeWear concept, which aims to give customers premium everyday apparel. The website's objective is to present Uniqlo's clothing in an engaging and responsive manner that works on all devices (or at least those that fall within the tablet/iPad range). It uses HTML, CSS, and JavaScript bootstrap elements, and its main features include a multi-page, interactive website with clickable and hover buttons and visually appealing banners, images, and slideshows.
+The repository is a website of Uniqlo, a Japanese casual wear designer and retailer well-known for its LifeWear concept, which aims to give customers premium everyday apparel. The website's objective is to present Uniqlo's clothing in an engaging and responsive manner that works on all devices (or at least those that fall within the desktop to tablet/iPad range). It uses HTML, CSS, and JavaScript bootstrap elements, and its main features include a multi-page, interactive website with clickable and hover buttons and visually appealing banners, images, and slideshows.
 
 <!--Guiding Question:
 - What is the project
