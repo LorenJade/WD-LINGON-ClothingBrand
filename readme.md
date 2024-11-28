@@ -6,23 +6,23 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/Uniqlo Logo.png" alt="Uniqlo-Logo" width="130" height="100">
+    <img src="./assets/img/Uniqlo Logo.png" alt="Uniqlo-Logo" width="auto" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Uniqlo PH</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  A Final Project in CCS0027 by Loren Jade F. Lingon.
+  A final project of a website designed by Loren Jade F. Lingon from BMA TD21 for the clothing brand Uniqlo.
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-LINGON-ClothingBrand
 
-[![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
+[![wakatime](https://wakatime.com/badge/user/030f1a55-0207-40f8-af4f-6abbce842f40/project/d3e1574e-0d6b-4acd-a474-7aeba1c664c0.svg)](https://wakatime.com/badge/user/030f1a55-0207-40f8-af4f-6abbce842f40/project/d3e1574e-0d6b-4acd-a474-7aeba1c664c0)
 
 ---
 
@@ -59,20 +59,22 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
+The repository is a website of Uniqlo, a Japanese casual wear designer and retailer well-known for its LifeWear concept, which aims to give customers premium everyday apparel. The website's objective is to present Uniqlo's clothing in an engaging and responsive manner that works on all devices (or at least those that fall within the tablet/iPad range). It uses HTML, CSS, and JavaScript bootstrap elements, and its main features include a multi-page, interactive website with clickable and hover buttons and visually appealing banners, images, and slideshows.
 
-Guiding Question:
+<!--Guiding Question:
 - What is the project
 - Whats the purpose
 - What are key components
-- What technology used and how it is used
+- What technology used and how it is used-->
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- MultiPage Website
+- Hover Animations
+- Interactable Modals and Buttons
+- Fade In Transition on Every Pages
+- Images embed as Slideshows and Accordions
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -120,3 +122,7 @@ WD-ProjectName
 | Title | Purpose | Link |
 |-|-|-|
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Bootstrap | A frontend library for websites | https://getbootstrap.com/docs/5.3/getting-started/introduction/ |
+| Uniqlo PH | The official website of Uniqlo where the images are collected | https://www.uniqlo.com/ph/en/ |
+| Footer | How to layout Footer | https://www.w3schools.com/html/html_layout.asp |
+| Social Media Icons | How to style social media buttons using CSS | https://www.w3schools.com/howto/howto_css_social_media_buttons.asp |
